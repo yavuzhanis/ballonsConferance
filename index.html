@@ -14,6 +14,25 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-icons.css" rel="stylesheet">
     <link href="css/templatemo-leadership-event.css" rel="stylesheet">
+    <style>
+        .banner-img {
+            max-width: 100%;
+            /* Görüntünün kapsayıcı genişliğini aşmasını önler */
+            overflow: hidden;
+            /* Taşmaları gizler */
+            position: relative;
+            /* Konumlandırmayı sağlar */
+        }
+
+        .banner-img img {
+            width: 100%;
+            /* Görüntüyü kapsayıcıya sığdırır */
+            height: auto;
+            /* Oranları korur */
+            display: block;
+            /* Görüntünün doğru hizalanmasını sağlar */
+        }
+    </style>
 </head>
 
 <body>
@@ -25,8 +44,9 @@
             </button>
 
             <a href="index.html" class="navbar-brand mx-auto mx-lg-0">
-                <img src="images/logo-sivil.png" alt="logo-sivil" style="width: 120px;">
                 <img src="images/kun-beyaz.png" alt="logo-kun" style="width: 120px;">
+                <img src="images/logo-sivil.png" alt="logo-sivil" style="width: 120px;">
+
             </a>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
@@ -55,29 +75,20 @@
                 <div class="row">
                     <div class="col-lg-5 col-12 m-auto">
                         <div class="hero-text">
-                            <h1 class="text-white mb-4" style="text-decoration: none; font-size: 30px !important">Sıcak
-                                Hava Balonu Sektöründe Emniyet,Teknoloji ve Gelecek Perspektifleri Çalıştayı</h1>
-
-                            <div class="d-flex justify-content-center align-items-center">
-                                <span class="date-text">12-14 Şubat, 2025</span>
-
-                                <span class="location-text">Nevşehir, Türkiye</span>
-                            </div>
-
                             <a href="#section_2" class="custom-link bi-arrow-down arrow-icon"></a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="video-wrap">
-                <video autoplay="" loop="" muted="" class="custom-video" poster="">
-                    <source src="videos/ballons.mp4" type="video/mp4">
-                </video>
+            <div class="banner-img">
+                <img src="images/banner-img.jpg" alt="">
             </div>
         </section>
         <section class="about section-padding" id="section_2">
             <div class="container">
-                <h1>Sıcak Hava Balonu Çalıştayı</h1>
+                <h4>Sıcak Hava Balonu
+                    Sektöründe Emniyet, Teknoloji ve
+                    Gelecek Perspektifleri Çalıştayı</h4>
                 <br>
                 <p>
                     Sıcak hava balonu sektörü, her geçen yıl gelişen teknoloji, artan emniyet önlemleri ve yenilikçi
@@ -149,9 +160,12 @@
                         </table>
                         <br>
                         <br>
-                        <h2 class="mt-5"><u style="text-decoration: none;">Sponsorlar</u></h2>
+                        <br>
+                        <h4 class="mt-5"><u style="text-decoration: none;">Sponsorlar</u></h4>
+                        <br>
                         <a href="https://www.pashaballoons.com/">
-                            <img src="images/pasha-logo.webp" alt="Pasha Balloons Logo" class="img-fluid" style="width: 200px;">
+                            <img src="images/pasha-logo.webp" alt="Pasha Balloons Logo" class="img-fluid"
+                                style="width: 200px;">
                         </a>
                     </div>
                     <div class="col-lg-6 col-12 mt-5 mt-lg-0">
@@ -202,7 +216,7 @@
                                 </tr>
                             </tbody>
                         </table>
-        
+
                         <h4 class="mt-5">Sekreterya</h4>
                         <table class="table mt-3">
                             <thead>
@@ -229,7 +243,7 @@
                     </div>
                 </div>
             </div>
-        </section>   
+        </section>
         <section class="schedule section-padding" id="section_4">
             <div class="container">
                 <div class="row">
@@ -271,7 +285,8 @@
                                 aria-labelledby="nav-DayOne-tab">
                                 <div class="row border-bottom pb-5 mb-5">
                                     <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-                                        <h4 class="mb-2">09:30 – 10:00 Kayıt</h4>
+                                        <h4 class="mb-2">09:30 – 10:00 <h6>Kayıt</h6>
+                                        </h4>
                                         <div class="d-flex align-items-center mt-4">
                                             <!-- <div class="speakers-thumb speakers-thumb-small">
                                                 <div class="speakers-info">
@@ -285,7 +300,7 @@
 
                                 <div class="row border-bottom pb-5 mb-5">
                                     <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-                                        <h4 class="mb-2">10:00 – 10:45 Açılış Konuşmaları <br> </h4>
+                                        <h4 class="mb-2">10:00 – 10:45 <h6>Açılış Konuşmaları</h6> <br> </h4>
                                         <!-- <p>
                                             <i class="fa-solid fa-user">    </i>    Prof. Dr. Hasan Ali Karasar(Kapadokya Üniversitesi Rektörü)  <br>
                                             <i class="fa-solid fa-person-chalkboard"></i>   Prof. Dr. Kemal Yüksek (Sivil Havacılık Genel Müdürü)<br>
@@ -332,7 +347,9 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-                                        <h4 class="mb-2">10:45 – 11:25 Sivil Havacılıkta Kurumsal Dönüşüm Modeli</h4>
+                                        <h4 class="mb-2">10:45 – 11:25 <h6>Sivil Havacılıkta Kurumsal Dönüşüm Modeli
+                                            </h6>
+                                        </h4>
                                         <div class="d-flex align-items-center mt-4">
                                             <table
                                                 style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
@@ -353,16 +370,19 @@
                                 <br>
                                 <div class="row">
                                     <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-                                        <h4 class="mb-2">11:25 – 11:40 Mola </h4>
+                                        <h4 class="mb-2">11:25 – 11:40 <h6>Mola </h6>
+                                        </h4>
                                         <div class="d-flex align-items-center mt-4">
                                         </div>
                                     </div>
                                 </div>
+                                <hr>
                                 <br>
                                 <div class="row">
                                     <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-                                        <h4 class="mb-2">11:40 – 12:20 Sıcak hava balonu sektörünün gelişiminin
-                                            değerlendirilmesi</h4>
+                                        <h4 class="mb-2">11:40 – 12:20 <h6>Sıcak Hava Balonu Sektörünün Gelişiminin
+                                                Değerlendirilmesi</h6>
+                                        </h4>
                                         <div class="d-flex align-items-center mt-4">
                                             <table
                                                 style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
@@ -381,10 +401,12 @@
                                         </div>
                                     </div>
                                 </div>
+                                <hr>
                                 <br>
                                 <div class="row">
                                     <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-                                        <h4 class="mb-2">12:20 – 13:30 Öğle Yemeği</h4>
+                                        <h4 class="mb-2">12:20 – 13:30 <h6> Öğle Yemeği</h6>
+                                        </h4>
                                         <div class="d-flex align-items-center mt-4">
                                             <span class="mx-1 mx-lg-5">
                                                 <i class="bi-layout-sidebar me-2"></i>
@@ -393,11 +415,13 @@
                                         </div>
                                     </div>
                                 </div>
+                                <hr>
                                 <br>
                                 <div class="row">
                                     <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-                                        <h4 class="mb-2">13:30 – 14:10 Slot Hizmet Merkezinin havacılık emniyeti
-                                            bağlamındaki rolü</h4>
+                                        <h4 class="mb-2">13:30 – 14:10 <h6>Slot Hizmet Merkezinin Havacılık Emniyeti
+                                                Bağlamındaki Rolü</h6>
+                                        </h4>
                                         <div class="d-flex align-items-center mt-4">
                                             <table
                                                 style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
@@ -415,20 +439,24 @@
                                         </div>
                                     </div>
                                 </div>
+                                <hr>
                                 <br>
                                 <div class="row">
                                     <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-                                        <h4 class="mb-2">14:10 – 14:25 Mola</h4>
+                                        <h4 class="mb-2">14:10 – 14:25 <h6>Mola</h6>
+                                        </h4>
                                         <div class="d-flex align-items-center mt-4">
 
                                         </div>
                                     </div>
                                 </div>
+                                <hr>
                                 <br>
                                 <div class="row">
                                     <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-                                        <h4 class="mb-2">14:25 – 15:05 Meteoroloji raporlarının değerlendirilmesinde
-                                            nesnellik ve uçulabilir gün sayılarının değerlendirilmesi</h4>
+                                        <h4 class="mb-2">14:25 – 15:05 <h6>Meteoroloji Raporlarının Değerlendirilmesinde
+                                                Nesnellik ve Uçulabilir Gün Sayılarının Değerlendirilmesi</h6>
+                                        </h4>
                                         <div class="d-flex align-items-center mt-4">
                                             <table
                                                 style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
@@ -445,11 +473,13 @@
                                         </div>
                                     </div>
                                 </div>
+                                <hr>
                                 <br>
                                 <div class="row">
                                     <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-                                        <h4 class="mb-2">15:05 – 15:45 Sıcak hava balonlarında uçuşa elverişlilik
-                                            yönetimi</h4>
+                                        <h4 class="mb-2">15:05 – 15:45 <h6>Sıcak Hava Balonlarında Uçuşa Elverişlilik
+                                                Yönetimi</h6>
+                                        </h4>
                                         <div class="d-flex align-items-center mt-4">
                                             <table
                                                 style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
@@ -466,19 +496,23 @@
                                         </div>
                                     </div>
                                 </div>
+                                <hr>
                                 <br>
                                 <div class="row">
                                     <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-                                        <h4 class="mb-2">15:45 – 16:00 Mola</h4>
+                                        <h4 class="mb-2">15:45 – 16:00 <h6> Mola</h6>
+                                        </h4>
                                         <div class="d-flex align-items-center mt-4">
 
                                         </div>
                                     </div>
                                 </div>
+                                <hr>
                                 <br>
                                 <div class="row">
                                     <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-                                        <h4 class="mb-2">16:00 – 16:45 SHT-APAM uygulamalarına ilişkin değerlendirme
+                                        <h4 class="mb-2">16:00 – 16:45 <h6>SHT-APAM Uygulamalarına İlişkin Değerlendirme
+                                            </h6>
                                         </h4>
                                         <div class="d-flex align-items-center mt-4">
                                             <table
@@ -496,277 +530,273 @@
                                         </div>
                                     </div>
                                 </div>
+                                <hr>
                             </div>
-
                             <div class="tab-pane fade" id="nav-DayTwo" role="tabpanel" aria-labelledby="nav-DayTwo-tab">
                                 <div class="row border-bottom pb-5 mb-5">
                                     <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-                                        <h4 class="mb-2">10:00 – 10:40</h4>
-                                        <div class="d-flex align-items-center mt-4">
-                                            <table
-                                                style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
-                                                <tr>
-                                                    <td style=" text-align: center;">
-                                                        <i class="fa-solid fa-xl fa-person-chalkboard"></i>
-                                                    </td>
-                                                    <td>Konuşmacı </td>
-                                                    <td style="padding: 10px;"><i
-                                                            class="fa-solid fa-building-columns"></i> SDED Temsilcisi
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </div>
-                                    </div>
-                                </div>
-                                <br>
-                                <div class="row">
-                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-                                        <h4 class="mb-2">10:40 – 11:20 Genel havacılık işletmelerinin balon uçuş
-                                            sahalarındaki faaliyetleri</h4>
-                                        <div class="d-flex align-items-center mt-4">
-                                            <table
-                                                style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
-                                                <tr>
-                                                    <td style=" text-align: center;">
-                                                        <i class="fa-solid fa-xl fa-person-chalkboard"></i>
-                                                    </td>
-                                                    <td>Ramazan Temel </td>
-                                                    <td style="padding: 10px;"><i
-                                                            class="fa-solid fa-building-columns"></i> Kapadokya
-                                                        Üniversitesi
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </div>
-                                    </div>
-                                </div>
-                                <br>
-                                <div class="row">
-                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-                                        <h4 class="mb-2">11:20 – 11:35 Mola</h4>
-                                        <div class="d-flex align-items-center mt-4">
-
-                                        </div>
-                                    </div>
-                                </div>
-                                <br>
-                                <div class="row">
-                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-                                        <h4 class="mb-2">11:35 – 12:15 Sıcak hava balonu kaza veya ciddi olaylarının
-                                            bildirimlerinin yapılması, araştırılması ve incelenmesi</h4>
-                                        <div class="d-flex align-items-center mt-4">
-                                            <table
-                                                style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
-                                                <tr>
-                                                    <td style=" text-align: center;">
-                                                        <i class="fa-solid fa-xl fa-person-chalkboard"></i>
-                                                    </td>
-                                                    <td>Altan Tekin </td>
-                                                    <td style="padding: 10px;"><i
-                                                            class="fa-solid fa-building-columns"></i> SDED Temsilcisi
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </div>
-                                    </div>
-                                </div>
-                                <br>
-                                <div class="row">
-                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-                                        <h4 class="mb-2">12:15 – 13:30 Öğle Yemeği</h4>
-                                        <div class="d-flex align-items-center mt-4">
-
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <br>
-                                <div class="row">
-                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-                                        <h4 class="mb-2">14:10 – 14:25 Mola</h4>
-                                        <div class="d-flex align-items-center mt-4">
-
-                                        </div>
-                                    </div>
-                                </div>
-                                <br>
-                                <div class="row">
-                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-                                        <h4 class="mb-2">14:25 – 15:05 Sıcak hava balonu sektöründe kadın inisiyatifi
+                                        <h4 class="mb-2">10:00 – 10:40 <h6>Genel havacılık işletmelerinin balon uçuş
+                                                sahalarındaki faaliyetleri</h6>
                                         </h4>
                                         <div class="d-flex align-items-center mt-4">
                                             <table
                                                 style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
                                                 <tr>
-                                                    <td style=" text-align: center;">
-                                                        <i class="fa-solid fa-xl fa-person-chalkboard"></i>
-                                                    </td>
-                                                    <td>Gamze Bora </td>
-                                                    <td style="padding: 10px;"><i
-                                                            class="fa-solid fa-building-columns"></i> SDED Temsilcisi
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </div>
-                                    </div>
-                                </div>
-                                <br>
-                                <div class="row">
-                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-                                        <h4 class="mb-2">15:05 – 15:45 Balon uçuş sahalarında balon hacimlerinin
-                                            havacılık emniyeti üzerinde etkisi</h4>
-                                        <div class="d-flex align-items-center mt-4">
-                                            <table
-                                                style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
-                                                <tr>
-                                                    <td style=" text-align: center;">
-                                                        <i class="fa-solid fa-xl fa-person-chalkboard"></i>
-                                                    </td>
-                                                    <td>Tolga Eke </td>
-                                                    <td style="padding: 10px;"><i
-                                                            class="fa-solid fa-building-columns"></i> SDED Temsilcisi
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </div>
-                                    </div>
-                                </div>
-                                <br>
-                                <div class="row">
-                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-                                        <h4 class="mb-2">15:45 – 16:00 Mola</h4>
-                                        <div class="d-flex align-items-center mt-4">
-
-                                        </div>
-                                    </div>
-                                </div>
-                                <br>
-                                <div class="row">
-                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-                                        <h4 class="mb-2">16:00 – 16:45 Sıcak hava balonu sektöründe bilgi teknolojileri
-                                            ve yapay zeka uygulamalarının kullanılabilirliğinin incelenmesi</h4>
-                                        <div class="d-flex align-items-center mt-4">
-                                            <table
-                                                style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
-                                                <tr>
-                                                    <td style=" text-align: center;">
-                                                        <i class="fa-solid fa-xl fa-person-chalkboard"></i>
-                                                    </td>
-                                                    <td>Ahmet Özcan </td>
+                                                    <td style=" text-align: center;"><i
+                                                            class="fa-solid fa-xl fa-person-chalkboard"></i></td>
+                                                    <td>Ramazan Temel</td>
                                                     <td style="padding: 10px;"><i
                                                             class="fa-solid fa-building-columns"></i> Kapadokya
-                                                        Üniversitesi
-                                                    </td>
+                                                        Üniversitesi</td>
                                                 </tr>
                                             </table>
                                         </div>
                                     </div>
                                 </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
+                                        <h4 class="mb-2">10:40 – 11:20 <h6>Ara: Çay & Kahve</h6>
+                                        </h4>
+                                    </div>
+                                </div>
+                                <hr>
+                                <br>
+                                <div class="row">
+                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
+                                        <h4 class="mb-2">11:20 – 11:35 <h6>Sıcak hava balonu kaza veya ciddi olaylarının
+                                                bildirimlerinin yapılması, araştırılması ve incelenmesi</h6>
+                                        </h4>
+                                        <div class="d-flex align-items-center mt-4">
+                                            <table
+                                                style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
+                                                <tr>
+                                                    <td style=" text-align: center;"><i
+                                                            class="fa-solid fa-xl fa-person-chalkboard"></i></td>
+                                                    <td>Altan Yaşar Tekin</td>
+                                                    <td style="padding: 10px;"><i
+                                                            class="fa-solid fa-building-columns"></i> Ulaşım Emniyeti
+                                                        İnceleme Merkezi Başkanlığı</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <br>
+                                <div class="row">
+                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
+                                        <h4 class="mb-2">11:35 – 12:15 <h6>Sıcak hava balonu sektöründe kadın
+                                                inisiyatifi</h6>
+                                        </h4>
+                                        <div class="d-flex align-items-center mt-4">
+                                            <table
+                                                style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
+                                                <tr>
+                                                    <td style=" text-align: center;"><i
+                                                            class="fa-solid fa-xl fa-person-chalkboard"></i></td>
+                                                    <td>Gamze Bora</td>
+                                                    <td style="padding: 10px;"><i
+                                                            class="fa-solid fa-building-columns"></i></td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <br>
+                                <div class="row">
+                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
+                                        <h4 class="mb-2">12:15 – 13:30 <h6>Öğle Yemeği</h6>
+                                        </h4>
+                                    </div>
+                                </div>
+                                <hr>
+                                <br>
+                                <div class="row">
+                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
+                                        <h4 class="mb-2">13:30 – 14:10 <h6>Balon uçuş sahalarında balon hacimlerinin
+                                                havacılık emniyeti üzerinde etkisi</h6>
+                                        </h4>
+                                        <div class="d-flex align-items-center mt-4">
+                                            <table
+                                                style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
+                                                <tr>
+                                                    <td style=" text-align: center;"><i
+                                                            class="fa-solid fa-xl fa-person-chalkboard"></i></td>
+                                                    <td>Tolga Eke</td>
+                                                    <td style="padding: 10px;"><i
+                                                            class="fa-solid fa-building-columns"></i> Royal Balon</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <br>
+                                <div class="row">
+                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
+                                        <h4 class="mb-2">14:10 – 14:25 <h6>Ara: Çay & Kahve</h6>
+                                        </h4>
+                                    </div>
+                                </div>
+                                <hr>
+                                <br>
+                                <div class="row">
+                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
+                                        <h4 class="mb-2">14:25 – 15:05 <h6>Sıcak hava balonu sektöründe bilgi
+                                                teknolojileri ve yapay zeka uygulamalarının kullanılabilirliğinin
+                                                incelenmesi</h6>
+                                        </h4>
+                                        <div class="d-flex align-items-center mt-4">
+                                            <table
+                                                style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
+                                                <tr>
+                                                    <td style=" text-align: center;"><i
+                                                            class="fa-solid fa-xl fa-person-chalkboard"></i></td>
+                                                    <td>Ahmet Özcan</td>
+                                                    <td style="padding: 10px;"><i
+                                                            class="fa-solid fa-building-columns"></i> Kapadokya
+                                                        Üniversitesi</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <br>
+                                <div class="row">
+                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
+                                        <h4 class="mb-2">15:05 – 15:45 <h6>Gözlemci pilot ve yer ekiplerinin uçuş
+                                                emniyetindeki rolü</h6>
+                                        </h4>
+                                        <div class="d-flex align-items-center mt-4">
+                                            <table
+                                                style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
+                                                <tr>
+                                                    <td style=" text-align: center;"><i
+                                                            class="fa-solid fa-xl fa-person-chalkboard"></i></td>
+                                                    <td>Emre Öztürk</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <br>
+                                <div class="row">
+                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
+                                        <h4 class="mb-2">15:45 – 16:00 <h6>Ara: Çay & Kahve</h6>
+                                        </h4>
+                                    </div>
+                                </div>
+                                <hr>
+                                <br>
+                                <div class="row">
+                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
+                                        <h4 class="mb-2">16:00 – 16:45 <h6>Sıcak hava balonlarında yükleme tablosunun
+                                                (Load Chart) kullanımı</h6>
+                                        </h4>
+                                        <div class="d-flex align-items-center mt-4">
+                                            <table
+                                                style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
+                                                <tr>
+                                                    <td style=" text-align: center;"><i
+                                                            class="fa-solid fa-xl fa-person-chalkboard"></i></td>
+                                                    <td>Halil Doğan Gülmüş</td>
+                                                    <td style="padding: 10px;"><i
+                                                            class="fa-solid fa-building-columns"></i> Pasha Balon
+                                                        Üretimi AŞ</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
                             </div>
+
 
                             <div class="tab-pane fade" id="nav-DayThree" role="tabpanel"
                                 aria-labelledby="nav-DayThree-tab">
                                 <div class="row border-bottom pb-5 mb-5">
                                     <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-                                        <h4 class="mb-2">10:00 – 10:40 Gözlemci pilot ve yer ekiplerinin uçuş
-                                            emniyetindeki rolü</h4>
+                                        <h4 class="mb-2">10:00 – 10:40 <h6>Sıcak hava balonu uçucu personel lisans
+                                                gerekliliklerinin değerlendirilmesi</h6>
+                                        </h4>
                                         <div class="d-flex align-items-center mt-4">
                                             <table
                                                 style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
                                                 <tr>
-                                                    <td style=" text-align: center;">
-                                                        <i class="fa-solid fa-xl fa-person-chalkboard"></i>
-                                                    </td>
-                                                    <td>Emre Öztürk </td>
+                                                    <td style=" text-align: center;"><i
+                                                            class="fa-solid fa-xl fa-person-chalkboard"></i></td>
+                                                    <td>Tayfun Günana</td>
                                                     <td style="padding: 10px;"><i
-                                                            class="fa-solid fa-building-columns"></i> SDED Temsilcisi
-                                                    </td>
+                                                            class="fa-solid fa-building-columns"></i> Sivil Havacılık
+                                                        Genel Müdürlüğü</td>
                                                 </tr>
                                             </table>
                                         </div>
                                     </div>
                                 </div>
+                                <br>
                                 <div class="row">
                                     <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-                                        <h4 class="mb-2">10:40 – 11:20 Sıcak hava balonlarında yükleme tablosunun (Load
-                                            Chart) kullanımı</h4>
+                                        <h4 class="mb-2">10:40 – 11:20 <h6>Ara: Çay & Kahve</h6>
+                                        </h4>
+                                    </div>
+                                </div>
+                                <hr>
+                                <br>
+                                <div class="row">
+                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
+                                        <h4 class="mb-2">11:20 – 11:35 <h6>Uçucu personel görev ve dinlenme süreleri ile
+                                                ilgili değerlendirme</h6>
+                                        </h4>
                                         <div class="d-flex align-items-center mt-4">
                                             <table
                                                 style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
                                                 <tr>
-                                                    <td style=" text-align: center;">
-                                                        <i class="fa-solid fa-xl fa-person-chalkboard"></i>
-                                                    </td>
-                                                    <td>Halil Doğan Gülmüş </td>
+                                                    <td style=" text-align: center;"><i
+                                                            class="fa-solid fa-xl fa-person-chalkboard"></i></td>
+                                                    <td>Ali Osman Yaman</td>
                                                     <td style="padding: 10px;"><i
-                                                            class="fa-solid fa-building-columns"></i> SDED Temsilcisi
-                                                    </td>
+                                                            class="fa-solid fa-building-columns"></i> Sivil Havacılık
+                                                        Genel Müdürlüğü</td>
+                                                </tr>
+                                                <tr>
+                                                    <td style=" text-align: center;"><i
+                                                            class="fa-solid fa-xl fa-person-chalkboard"></i></td>
+                                                    <td>Sinan Çetinkaya</td>
+                                                    <td style="padding: 10px;"><i
+                                                            class="fa-solid fa-building-columns"></i> Sivil Havacılık
+                                                        Genel Müdürlüğü</td>
                                                 </tr>
                                             </table>
                                         </div>
                                     </div>
                                 </div>
                                 <hr>
+                                <br>
                                 <div class="row">
                                     <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-                                        <h4 class="mb-2">11:20 – 11:35 Sıcak hava balonu uçucu personel lisans
-                                            gerekliliklerinin değerlendirilmesi</h4>
+                                        <h4 class="mb-2">11:35 – 12:15 <h6>Kapanış ve Değerlendirmeler</h6>
+                                        </h4>
                                         <div class="d-flex align-items-center mt-4">
                                             <table
                                                 style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
                                                 <tr>
-                                                    <td style=" text-align: center;">
-                                                        <i class="fa-solid fa-xl fa-person-chalkboard"></i>
-                                                    </td>
-                                                    <td>Tayfun Günana </td>
+                                                    <td style=" text-align: center;"><i
+                                                            class="fa-solid fa-xl fa-person-chalkboard"></i></td>
+                                                    <td>Konuşmacı</td>
                                                     <td style="padding: 10px;"><i
-                                                            class="fa-solid fa-building-columns"></i> SDED Temsilcisi
-                                                    </td>
+                                                            class="fa-solid fa-building-columns"></i> Sivil Havacılık
+                                                        Genel Müdürlüğü</td>
                                                 </tr>
                                             </table>
                                         </div>
                                     </div>
                                 </div>
                                 <hr>
-                                <div class="row">
-                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-                                        <h4 class="mb-2">11:35 – 12:15 Uçucu personel görev ve dinlenme süreleri ile
-                                            ilgili değerlendirme</h4>
-                                        <div class="d-flex align-items-center mt-4">
-                                            <table
-                                                style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
-                                                <tr>
-                                                    <td style=" text-align: center;">
-                                                        <i class="fa-solid fa-xl fa-person-chalkboard"></i>
-                                                    </td>
-                                                    <td>Ali Osman Yaman </td>
-                                                    <td style="padding: 10px;"><i
-                                                            class="fa-solid fa-building-columns"></i> SDED Temsilcisi
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-lg-8 col-12 mt-3 mt-lg-0">
-                                        <h4 class="mb-2">12:15 – 12:30 Kapanış ve Değerlendirmeler</h4>
-                                        <div class="d-flex align-items-center mt-4">
-                                            <table
-                                                style="border-collapse: collapse; width: 100%; font-family: Arial, sans-serif;">
-                                                <tr>
-                                                    <td style=" text-align: center;">
-                                                        <i class="fa-solid fa-xl fa-person-chalkboard"></i>
-                                                    </td>
-                                                    <td>Konuşmacı </td>
-                                                    <td style="padding: 10px;"><i
-                                                            class="fa-solid fa-building-columns"></i> SDED Temsilcisi
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -861,8 +891,8 @@
                 <div class="col-lg-12 col-12 border-bottom pb-5 mb-5">
                     <div class="d-flex">
                         <a href="index.html" class="navbar-brand" style="padding: 10px;margin: 10px;">
-                            <img src="images/shgm_logo_yazi3.jpg" alt="logo-sivil" style="width: 120px;">
                             <img src="images/download.png" alt="logo-kun" style="width: 120px;">
+                            <img src="images/shgm_logo_yazi3.jpg" alt="logo-sivil" style="width: 120px;">
                         </a>
 
                         <ul class="social-icon ms-auto">
@@ -901,4 +931,5 @@
     <script src="js/custom.js"></script>
     <script src="https://kit.fontawesome.com/635edd2698.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
